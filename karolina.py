@@ -5,7 +5,7 @@ with open('input.txt', encoding='utf8') as f_in:
 words = text.split()
 
 unique = []
-for word in text:
+for word in words:
     if word not in unique:
         unique.append(word)
 print('unique = ', unique)
