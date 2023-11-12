@@ -1,5 +1,5 @@
 '''
-Кнопова Анна 60
+Кнопова Анна 65
 Балан Каролина 60
 Шилкова Ульяна 50
 '''
@@ -32,6 +32,7 @@ bred = ''
 for j in range(n):
     bred_sentence = ''
     a = 0
+    first_wrd = ''
     while a < 1:
         first_wrd = random.choice(unique)
         if first_wrd[0].isupper():
