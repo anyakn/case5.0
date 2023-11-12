@@ -18,7 +18,7 @@ for i in range(len(unique)-1):
         next_words.append(temporary[ind + 1])
         temporary = temporary[ind + 1:]
 
-    print(unique[i], next_words )
+    print(unique[i], next_words)
 
 
 

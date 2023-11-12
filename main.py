@@ -56,4 +56,5 @@ for j in range(n):
 
     bred += bred_sentence
 
-print(bred)
+with open('output.txt', encoding='utf8') as f_out:
+    f_out.write(bred)
